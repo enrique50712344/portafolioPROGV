@@ -1,0 +1,44 @@
+{
+  "name": "portafolio-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Portafolio inmersivo — Enrique López · Programación V · UNACHI 2026-II",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "build": "vite build",
+    "preview": "vite preview",
+    "codegen": "node scripts/generate-content.mjs",
+    "shots": "node scripts/capture.mjs"
+  },
+  "dependencies": {
+    "@fontsource/instrument-serif": "^5.2.5",
+    "@fontsource/manrope": "^5.2.5",
+    "@fontsource/sora": "^5.2.6",
+    "@react-three/drei": "^10.4.2",
+    "@react-three/fiber": "^9.2.0",
+    "framer-motion": "^12.23.0",
+    "gsap": "^3.13.0",
+    "lenis": "^1.3.8",
+    "lucide-react": "^0.536.0",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "three": "^0.178.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@types/three": "^0.178.0",
+    "@vitejs/plugin-react": "^4.6.0",
+    "puppeteer-core": "^24.15.0",
+    "tailwindcss": "^4.1.11",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.4"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}

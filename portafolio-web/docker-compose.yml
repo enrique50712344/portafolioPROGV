@@ -1,0 +1,10 @@
+services:
+  portafolio:
+    build: .
+    container_name: portafolio-web
+    image: portafolio-web:2026-ii
+    restart: unless-stopped
+    extra_hosts:
+      - 'host.docker.internal:host-gateway'
+    ports:
+      - '8083:80'

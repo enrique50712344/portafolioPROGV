@@ -1,0 +1,30 @@
+# ── Dependencias y builds ─────────────────────────────────────────
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# ── Variables de entorno ──────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Artefactos Java ───────────────────────────────────────────────
+*.class
+build/
+target/
+out/
+
+# ── Sistema ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Contenido local del curso (solo se publica portafolio-web) ────
+/*.java
+/PagaYa.postman_collection.json
+/Prototipo_ReservaFE_Java/
+/Prototipo_ReservaFE_Java8/
+/ReservasLabAPISemana10/
+/Retos/
+/.postman/
+/postman/
